@@ -1,0 +1,18 @@
+{
+    "require": {
+        "dompdf/dompdf": "^0.8.2",
+        "iio/libmergepdf": "^3.1"
+    },
+
+    "autoload":{
+        "classmap":[
+          "classes/Connection.php",
+          "classes/ModeloCertificado.php",
+          "classes/AdoModeloCertificado.php",
+          "classes/FactoryModeloCertificado.php",
+          "lib/mpdf/Mpdf.php",
+          "actions/printIndividual.php",
+          "actions/printColetivo.php"
+        ]
+    }
+}
